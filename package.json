@@ -1,0 +1,27 @@
+{
+  "name": "moment",
+  "version": "1.0.0",
+  "description": "compact recombination of three great library ( momentjs - moment-jalali - jalalijs ) into one minified and compilable component for ES6 application compatible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryanio/moment.git"
+  },
+  "keywords": [
+    "moment",
+    "moment-jalali",
+    "jalalijs",
+    "date",
+    "datetime",
+    "convertdate"
+  ],
+  "author": "Aryan Alikhani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aryanio/moment/issues"
+  },
+  "homepage": "https://github.com/aryanio/moment#readme"
+}
