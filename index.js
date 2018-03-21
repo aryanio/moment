@@ -724,13 +724,13 @@ jMoment.fn.clone = function () {
 
 
 
-const convertWeek = (g) => {
+const convertWeek = function () {
     let o = g + 1;
     if (o === 7) o = 0;
     return o;
 };
-jMoment.fn.jWeekDay = () => {
-    return convertWeek(this.isoWeekday());
+jMoment.fn.jWeekDay = function () {
+    return convertWeek(this.weekday());
 }
 
 
@@ -745,6 +745,7 @@ jMoment.fn.jWeeks = jMoment.fn.jWeek;
  jMoment Statics
  ************************************/
 
+/*
 jMoment.jDaysInMonth = function (year, month) {
     year += div(month, 12);
     month = mod(month, 12);
@@ -762,6 +763,7 @@ jMoment.jDaysInMonth = function (year, month) {
         return 29;
     }
 };
+*/
 
 jMoment.jIsLeapYear = jalaali.isLeapJalaaliYear;
 
