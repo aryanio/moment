@@ -1,5 +1,5 @@
 {
-  "name": "moment",
+  "name": "momentj",
   "version": "1.0.0",
   "description": "compact recombination of three great library ( momentjs - moment-jalali - jalalijs ) into one minified and compilable component for ES6 application compatible",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aryanio/moment.git"
+    "url": "git+https://github.com/xeuus/moment.git"
   },
   "keywords": [
     "moment",
@@ -21,7 +21,7 @@
   "author": "Aryan Alikhani",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aryanio/moment/issues"
+    "url": "https://github.com/xeuus/moment/issues"
   },
-  "homepage": "https://github.com/aryanio/moment#readme"
+  "homepage": "https://github.com/xeuus/moment#readme"
 }
